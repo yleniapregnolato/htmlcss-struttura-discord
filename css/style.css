@@ -5,14 +5,17 @@
     box-sizing: border-box;
 }
 
-/* commun */
-.container {
+/* common */
+
+/* /common */
+
+/* header */
+.banner {
     width: 700px;
     background-color: #DAA520;
     margin: 0 auto;
     padding: 5px;
 }
-/* /commun */
 
 header {
     background-color: #ADD8E6;
@@ -23,8 +26,6 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-    /* justify-content: space-around;
-} */
 
 .logo,
 .login {
@@ -35,4 +36,21 @@ nav {
 .login {
     display: flex;
     justify-content: right;
+}
+/* /header */
+
+/* main */
+.first-section {
+    background-color: #00008B;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-purple {
+    width: 500px;
+    height: 300px;
+    background-color: #EE82EE;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px dashed black;
 }
